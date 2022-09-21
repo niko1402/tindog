@@ -120,9 +120,10 @@ p {
 /* Pricing */
 
 #pricing {
-  padding: 5% 10%;
+  padding: 100px;
+  text-align: center;
 }
 
-.card {
-  margin: 0 20px 24px 20px;
+.pricing-column {
+  padding: 3% 2%;
 }
