@@ -56,22 +56,30 @@ p {
   font-weight: 100;
 }
 
-/* Download Buttons */
+/* Title */
 
 .download-button {
   margin: 15px 25px 14px 0;
 }
 
+/* Bootstrap 5 col-lg-6 has default position of static, so you need to set a parent div of relative, otherwise title-image will be huge! */
+
+.title-image-div {
+  position:relative;
+}
+
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  padding: 50px 0 50px 0;
+  position: absolute;
 }
 
 /* Features Section */
 
-.features {
+#features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
