@@ -18,14 +18,14 @@ h1 {
 }
 
 h2 {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   padding-top: 15px;
@@ -144,7 +144,9 @@ p {
   padding: 7% 15%;
 }
 
-#cta h3 {
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bolder;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -154,8 +156,17 @@ p {
 }
 
 #footer {
+  padding: 7% 15%;
   text-align: center;
+  background-color: #fff;
 }
+
+.social-icon {
+  margin: 20px 10px;
+}
+/* #footer p {
+  margin: 20px 0;
+} */
 @media (max-width: 990px) {
   .title-image {
     position: static;
