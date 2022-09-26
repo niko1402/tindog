@@ -9,7 +9,6 @@ body {
 }
 
 #features,
-#cta,
 #footer {
   padding: 7% 15%;
   background-color: #fff;
@@ -141,6 +140,8 @@ h1 {
 
 #cta {
   background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
 }
 
 .cta-heading {
@@ -162,9 +163,6 @@ h1 {
   .title-image {
     position: static;
     transform: rotate(0);
-  }
-
-  #title {
   }
 
   .download-button {
